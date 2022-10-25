@@ -149,7 +149,7 @@ public  class WalkThroughActivity extends AppCompatActivity {
         //sharedPreferences
         setUpSharedPreferences();
 
-        Intent intent=new Intent(getApplicationContext(), LoginActivity.class);
+        Intent intent=new Intent(getApplicationContext(), ServiceActivity.class);
         //redirect actiity;
         startActivity(intent);
         finish();
